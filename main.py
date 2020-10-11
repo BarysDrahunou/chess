@@ -1,5 +1,6 @@
 from ChessBoard import NewGame
 from Figures import *
 
-a = Pawn((2, 1), True)
-print(a.get_possible_cages_to_move())
+
+b = King((1, 1))
+print(b.get_possible_cages_to_move())
